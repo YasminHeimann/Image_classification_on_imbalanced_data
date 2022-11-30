@@ -1,0 +1,43 @@
+*********************
+*-------------------*
+*----Yasmin Heimann--*
+*------hyasmin------*
+*-----311546915-----*
+*-----APML 20/21----*
+*--------Ex1--------*
+*-------------------*
+*********************
+
+======================================
+                FILES
+======================================
+The project contains the following files:
+models.py - a class of a simple CNN
+dataset.py - a class of a dataset used in pytorch
+Model_Training.py - a module that trains the network in models.py
+Model_Evaluation.py - a module that evaluates a neural network
+Adversarial_Example.py - a module the generate adversarial examples from a given trained images
+                         neural networks' classifier
+README - this file.
+311546915.ckpt - a checkpoint of the trained model with the defined parameters
+				 in the training module.
+Answers.pdf - a review of the model's learning process and final results
+
+======================================
+         PROJECT DESCRIPTION
+======================================
+The attached project traines, evaluates and generates a nueral network model
+that classifies images of three classes: car, truck and cat, using PyTorch package.
+The project also support generation of advarsarial examples from a given
+trained neural network.
+
+======================================
+           TECHNICAL INFO
+======================================
+For running the project, you need to have a train and a test set, and adjust
+all the paths defined in the macros at each module.
+The supplied model is trained on an Imbalance subset of CIFAR10.
+The modules assume using the path from where you run the project.
+You can adjust the hyper-parameters of the network for training as you wish.
+
+Enjoy!
